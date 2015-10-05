@@ -33,9 +33,9 @@ public class Billetautomat {
 	//FIXED//
 	public void indsætPenge(int beløb) {
 		
-		if(beløb <0)
+		if(beløb <=0)
 		{
-			System.out.println("Du kan ikke indsætte negative beløb!");
+			System.out.println("Du skal indsætte et positivt beløb.");
 			System.out.println(balance);
 
 		} 
