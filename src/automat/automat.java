@@ -12,4 +12,10 @@ public class automat {
 		assertEquals(10, b.getBilletpris());
 	}
 
+
+	public void setBilletpris() {
+		Billetautomat b = new Billetautomat();
+		assertEquals(10, b.setBilletpris(30));
+}
+
 }
