@@ -37,6 +37,7 @@ public class Billetautomat {
 		{
 			System.out.println("Du skal indsætte et positivt beløb.");
 			System.out.println(balance);
+			beløb = 0;
 
 		} 
 		else 
