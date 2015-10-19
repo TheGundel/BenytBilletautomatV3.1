@@ -8,6 +8,8 @@ public class testetst {
 
 	@Test
 	public void testBilletautomat() {
+	
+	
 	}
 
 	@Test
